@@ -1,0 +1,169 @@
+html {
+  scroll-behavior: smooth; /*only supported by chrome, firefox, opera*/
+}
+
+body {
+  background: #000000;
+  color: #ffffff;
+}
+
+section {
+  padding: 50px;
+}
+
+p {
+  text-align: left;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+h2 {
+  padding-top: 15px;
+}
+
+.main {
+  text-align: center;
+}
+
+/*profile section*/
+#profile {
+  background-image: url("https://images.unsplash.com/photo-1518818419601-72c8673f5852?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+  background-repeat: round;
+  padding-top: 30px;
+  height: 95vh; /* only good for landscape screens */
+  position: relative;
+}
+
+.circular-headshot {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular-headshot img {
+  width: 100%;
+  height: auto;
+}
+
+.mission-statement {
+  padding-top: 50px;
+}
+.mission-statement p {
+  text-align: center;
+}
+
+.contact-icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-icons a {
+  font-size: 1.5em;
+  margin: 10px;
+  border-radius: 50%;
+  border: solid white;
+  color: white; /*sets color of icon*/
+  background: #343a40; /* same colour as bootstrap bg-dark*/
+  line-height: 2.5em;
+  width: 2.5em;
+  height: 2.5em;
+  text-align: center;
+  display: inline-block;
+}
+
+.contact-icons .top-icons {
+  padding-bottom: 50px;
+}
+
+/*scroll-down button anchor tag*/
+.scroll-down {
+  position: absolute;
+  bottom: 5px;
+  right: 0;
+  left: 0;
+}
+
+/*scroll-down button*/
+.material-icons.md-48.md-light {
+  font-size: 48px;
+  color: #ffffff;
+}
+
+/*about section*/
+#about {
+  text-align: left;
+}
+
+.my-interests {
+  padding-top: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.my-interests-title {
+  padding-top: 15px;
+}
+
+#experience {
+  text-align: left;
+  background: #0f1317;
+}
+
+.experience-item .date {
+  font-style: italic;
+}
+
+.experience-item p {
+  padding-top: 5px;
+}
+
+#projects {
+  background: #f8f9fa; /* same colour as bootstrap bg-light*/
+}
+
+.project-section-heading {
+  color: #212529;
+}
+
+.card-img-top {
+  height: 200px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.card-text {
+  color: #212529;
+  font-size: 1rem;
+}
+
+#contact {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #282828;
+}
+
+.bottom-links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.bottom-links a {
+  color: #ffffff;
+}
+
+/* For portrait mode screens */
+@media only screen and (min-height: 1048px) {
+  #profile {
+    height: auto; /*background image no longer tall enough*/
+  }
+}
