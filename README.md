@@ -8,3 +8,4 @@ Static HTML webpage served on GitHub pages. Uses bootstrap.
 3. Add JS code for down arrow transition (for Safari and Edge)
 4. Set active nav link programmatically
 5. Fix project cards for diff sized screens
+6. fix issue when viewport height smaller than size of profile

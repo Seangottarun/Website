@@ -50,6 +50,7 @@ h2 {
 .mission-statement {
   padding-top: 50px;
 }
+
 .mission-statement p {
   text-align: center;
 }
@@ -104,6 +105,7 @@ h2 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  align-content: flex-start;
 }
 
 .my-interests-title {
@@ -161,9 +163,37 @@ h2 {
   color: #ffffff;
 }
 
-/* For portrait mode screens */
+/* For portrait mode screens taller than 1048px*/
 @media only screen and (min-height: 1048px) {
   #profile {
     height: auto; /*background image no longer tall enough*/
+  }
+}
+
+/* For portrait smartphone screens, reduce font size and padding */
+@media only screen and (max-width: 425px) {
+  p {
+    font-size: 16px;
+  }
+
+  section {
+    padding: 15px 30px;
+  }
+
+  #profile {
+    padding-top: 10px;
+    height: auto; /*background image no longer tall enough*/
+  }
+
+  .mission-statement {
+    padding-top: 10px;
+  }
+
+  .contact-icons .top-icons {
+    padding-bottom: 5px;
+  }
+
+  .my-interests {
+    display: block;
   }
 }
