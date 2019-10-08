@@ -163,6 +163,12 @@ h2 {
   color: #ffffff;
 }
 
+/* remove padding for Bootstrap justify-content between for the project
+date and buttons */
+.col {
+  padding: 0;
+}
+
 /* For portrait mode screens taller than 1048px*/
 @media only screen and (min-height: 1048px) {
   #profile {
