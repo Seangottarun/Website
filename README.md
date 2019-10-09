@@ -8,4 +8,5 @@ Static HTML webpage served on GitHub pages. Uses bootstrap.
 3. Set active nav link programmatically
 4. fix issue when viewport height smaller than size of profile
 5. Write meta description
-6. Set tab colour
+6. Improve SEO and set up [Google Webmasters](https://www.google.ca/webmasters/#) and [Google Search Console](https://search.google.com/search-console/about)
+7. Track web traffic w/ [Google Analytics](https://marketingplatform.google.com/about/analytics/)
