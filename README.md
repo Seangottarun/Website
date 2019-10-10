@@ -2,7 +2,7 @@
 
 Built my personal website as a static HTML webpage served on GitHub pages.
 
-Check out my site at [seanwu.io](seanwu.io)!
+Check out my site at [seanwu.io](https://seanwu.io/)!
 
 # To Do/Fix
 1. Make mobile menu close when a link is clicked
