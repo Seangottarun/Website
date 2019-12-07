@@ -3,8 +3,8 @@ html {
 }
 
 body {
-  background: #000000;
-  color: #ffffff;
+  background: #292b2c;
+  color: #f7f7f7;
 }
 
 section {
@@ -91,7 +91,7 @@ h2 {
 /*scroll-down button*/
 .material-icons.md-48.md-light {
   font-size: 48px;
-  color: #ffffff;
+  color: #f7f7f7;
 }
 
 /*about section*/
@@ -160,7 +160,7 @@ h2 {
 }
 
 .bottom-links a {
-  color: #ffffff;
+  color: #f7f7f7;
 }
 
 /* remove padding for Bootstrap justify-content between for the project
