@@ -163,6 +163,11 @@ h2 {
   color: #f7f7f7;
 }
 
+.copyright {
+  text-align: center;
+  padding: 20px;
+}
+
 /* remove padding for Bootstrap justify-content between for the project
 date and buttons */
 .col {
